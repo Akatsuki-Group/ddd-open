@@ -1,0 +1,11 @@
+server:
+  port: 8700
+spring:
+  application:
+    name: tulingmall-open-mobile
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.65.206:8848,192.168.65.209:8848,192.168.65.210:8848
+  main:
+    allow-bean-definition-overriding: true
